@@ -9,7 +9,7 @@ const typeWriter = (word, index) => {
     setTimeout(() => {
       typeWriterContent.innerHTML += `<span>${word[index]}</span>`;
       typeWriter(txt, index + 1);
-    }, 85);
+    }, 65);
   }
 };
 
@@ -18,7 +18,7 @@ const typeWriterEnd = (word, index) => {
     setTimeout(() => {
       stayTuned.innerHTML += `<span>${word[index]}</span>`;
       typeWriterEnd(txtEnd, index + 1);
-    }, 85);
+    }, 65);
   }
 };
 
@@ -28,4 +28,4 @@ setTimeout(() => {
 
 setTimeout(() => {
   typeWriterEnd(txtEnd, 0);
-}, 9000);
+}, 8000);
