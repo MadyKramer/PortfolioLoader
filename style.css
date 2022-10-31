@@ -12,6 +12,16 @@
 body {
   background-color: black;
   text-align: center;
+
+}
+
+.container{
+    display: flex;
+    flex-direction: column;
+}
+
+.typewritter-container{
+    height: 150px;
 }
 
 p {
@@ -23,11 +33,15 @@ p {
   margin-bottom: 50px;
   margin-top: 50px;
   position: relative;
+ 
 }
 
 .pokemonEvolving {
   width: 25%;
   height: auto;
+}
+#stayTuned{
+    margin-top: 120px;
 }
 p::after {
   content: "";
@@ -52,3 +66,4 @@ p::after {
     opacity: 1;
   }
 }
+
