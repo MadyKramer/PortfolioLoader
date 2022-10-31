@@ -1,0 +1,921 @@
+<!DOCTYPE html><script>var __pbpa = true;</script><script>var translated_warning_string = 'Avertissement : N\u2019entrez jamais votre mot de passe Tumblr si la barre d\'adresse\x0ade votre navigateur n\'affiche pas \u201chttps://www.tumblr.com/login\u201d\x0aet/ou que le nom \u201cTumblr, Inc.\u201d n\'appara\u00eet pas en vert.\x0a\x0aLes spammers (et autres personnes malintentionn\u00e9es) utilisent de faux\x0a formulaires pour s\u2019emparer de vos identifiants et mots de passe.\x0a\x0aTumblr ne vous demandera jamais de vous identifier \u00e0 partir d\'un blog d\'utilisateur.\x0a\x0a\u00cates-vous certain(e) de vouloir continuer ?';</script><script type="text/javascript" language="javascript" src="https://assets.tumblr.com/assets/scripts/pre_tumblelog.js?_v=b9f848c06fcba7eaf305d4a7cb7a1b98"></script><!--
+_____________________________________________
+_____________________________________________
+        ____   _    ____  _____ ____
+       |  _ \ / \  |  _ \| ____|  _ \
+       | |_) / _ \ | |_) |  _| | |_) |
+       |  __/ ___ \|  __/| |___|  _ <
+       |_| /_/   \_\_|   |_____|_| \_\
+_____________________________________________
+_____________________________________________
+
+Version 3.00
+_____________________________________________
+
+Paper theme created by: @brickspacelab
+_____________________________________________
+
+Demo: papertheme.tumblr.com/
+Project: github.com/thomaskimura/Paper
+
+Thanks to:
+- github.com/PixelUnion/Extended-Tumblr-Photoset
+- instafeedjs.com
+- code.google.com/p/google-code-prettify/
+_____________________________________________
+
+-->
+<html lang="en">
+  <head>
+    <title>GIF universe</title>
+
+    <style>figure{margin:0}.tmblr-iframe{position:absolute}.tmblr-iframe.hide{display:none}.tmblr-iframe--amp-cta-button{visibility:hidden;position:fixed;bottom:10px;left:50%;transform:translateX(-50%);z-index:100}.tmblr-iframe--amp-cta-button.tmblr-iframe--loaded{visibility:visible;animation:iframe-app-cta-transition .2s ease-out}</style><link rel="stylesheet" media="screen" href="https://assets.tumblr.com/client/prod/standalone/blog-network-npf/index.build.css?_v=728ee1c0c66782633c8568bff9b8d8fb"><link rel="alternate" type="application/rss+xml" href="https://gifloop.tumblr.com/rss">
+    <link rel="shortcut icon" href="https://64.media.tumblr.com/avatar_9dcf25924c1f_128.pnj">
+
+    
+        <meta name="description" content="" />
+    
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no" charset="UTF-8">
+
+    <!-- for Facebook -->
+<meta property="og:title" content="GIF universe" />
+<meta property="og:type" content="article" />
+<meta property="og:url" content="" />
+<meta property="og:description" content="" />
+
+    <!-- for Twitter -->
+<meta name="twitter:card" content="summary">
+<meta name="twitter:site" content="@">
+<meta name="twitter:creator" content="@">
+<meta name="twitter:title" content="GIF universe">
+
+    <!--TUMBLR CUSTOMIZATION-->
+    <!--Colours-->
+    <meta name="color:Main Color" content="#d45603"/> <!--Color for hover and highlight-->
+    <meta name="color:Tint Color" content="#000"/>
+    <meta name="color:Header Color" content="#d45603"/>
+    <meta name="color:Header Background Color" content="#333333"/>
+
+    <!--Sizing-->
+    <meta name="text:Column Size" content="600"/> <!--Set column width-->
+
+    <!--Images-->
+    <meta name="image:HeaderBackground" content=""/>  <!--Background image for header-->
+    <meta name="image:Avatar" content=""/>            <!--Optional image above header-->
+
+    <!--Fonts-->
+    <meta name="font:Headings" content="Calluna Sans"/> <!--Sans-serif, headings, notes, navigation-->
+    <meta name="font:Subheadings" content="Calluna Sans"/>
+    <meta name="font:Body" content="Calluna"/>     <!--All content-->
+    <meta name="font:Fancy" content="Clarendon"/> <!--Quotes-->
+
+    <!--Text-->
+    <meta name="text:Email" content="Email"/>
+    <meta name='text:Disqus Shortname' content='' />
+
+    <meta name="text:Facebook URL" content="www.Facebook.com"/>
+    <meta name="text:Google Plus Url" content="Google"/>
+    <meta name="text:Username on Twitter" content="Twitter"/>
+    <meta name="text:Username on YouTube" content="YouTube"/>
+    <meta name="text:Username on Instagram" content="Instagram"/>
+    <meta name="text:Username on Pinterest" content="Pintrest"/>
+    <meta name="text:Username on Flickr" content="Flickr"/>
+    <meta name="text:Username on Linkedin" content="Linkedin"/>
+    <meta name="text:Username on Dribbble" content="Dribbble"/>
+    <meta name="text:Username on GitHub" content="GitHub"/>
+    <meta name="text:Website" content="Website"/>
+    <meta name="text:Google analytics ID" content="">
+
+    <meta name="text:Instagram User ID" content=""/>
+    <meta name="text:Instagram Access Token" content=""/>
+    <meta name="text:Instagram Tag" content=""/>
+
+    <!--Options-->
+    <meta name="if:Keyboard Controls" content="1"/>   <!--Turn on keyboard controls-->
+    <meta name="if:Author" content="1"/>              <!--Display authors-->
+    <meta name="if:Random" content="1"/>              <!--Allow random post navigation-->
+    <meta name="if:Post Navigation" content="1"/>     <!--Navigation on permalink pages-->
+    <meta name="if:Recent Post" content="1"/>         <!--Display recent posts-->
+    <meta name="if:Instagram Feed" content="0"/>      <!--Enable instagram feeds-->
+    <meta name="if:Tweet Button" content="0"/>
+    <meta name="if:Facebook Button" content="0"/>
+    <meta name="if:Description" content="1"/>
+    <meta name="if:Full Height" content="0"/>
+    <meta name="if:Full Images" content="1"/>
+    <meta name="if:Header On" content="0"/>
+    <meta name="if:Fade On" content="0"/>
+
+    <!--Stylesheets-->
+    <link href="https://static.tumblr.com/9hupah0/YBWntep0m/style.min.css" rel="stylesheet">
+    <link href="//netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.css" rel="stylesheet">
+
+<style>
+/*-------------*/
+/*---OPTIONS---*/
+/*-------------*/
+
+.support-it {
+  color: #bbb;
+  margin: 0 auto;
+  padding: 5px;
+  width:90%;
+  max-width: 400px;
+  border-radius: 5px;
+  text-decoration:underline;
+}
+/*--Column Width--*/
+.postHead{max-width:600px;}
+.row{max-width:600px;}
+
+/*--Header--*/
+
+  .header p{
+    color:#d45603;
+    opacity:0.6;
+  }
+  .header ul li{
+    color:#d45603;
+    opacity:0.6;
+  }
+
+#headerTint{background:#000;}
+#bigTitle{color:#d45603;}
+
+/*--Highlight Options--*/
+::selection{opacity:1;color:#fff; background-color:#d45603;}
+:-moz-selection{opacity:1;color:#fff; background-color:#d45603;}
+
+/*--Link Hover--*/
+a:hover{color:#d45603;}
+.header #title:hover{color:#d45603;}
+.menuIcon:hover{color:#d45603;}
+.sb-slidebar ul li a:hover{color:#d45603;}
+#bottomLinks a:hover{color:#d45603;}
+
+/*--Fonts--*/
+ h1, h2, h3, h4, h5, h6{font-family:'Calluna Sans', sans-serif; !important}
+ body, ol.notes li.note blockquote a, .postAuthor, .postStats, ol.notes li {font-family:'Calluna Sans', sans-serif; !important}
+.quote, .pDropCap, pQuote {font-family: Clarendon !important;}
+.post p, .chat li, blockquote, #recentSummary, .source{font-family:'Calluna', serif;}
+
+</style>
+
+
+  <style>
+  /*--STYLE FOR PERMALINK PAGE ONLY--*/
+    /*HEADER*/
+    .header ul, .header p{display:none;}
+    .header h1{display:none;}
+    .backButtonContainer{margin-top:20px;}
+    .backButton{display:initial;}
+
+    /*HIDE*/
+    .hideOnPermalink{display:none !important;}
+    .hideOnIndex{display:block;}
+
+    #title, #recentTitle{font-size:2.618rem; line-height:3.141rem;}
+
+    /*TYPOGRAPHY*/
+    /* first paragraph larger */
+    .post > p:first-of-type{font-size:1.25rem; line-height:2.022rem;} /*1.2 & 1.618*/
+
+  /*LARGER THAN 900PX*/
+    @media only screen and (min-width: 900px)
+    {
+      #title, #recentTitle{font-size:3.272rem; line-height:3.926rem;}
+
+      /* first paragraph larger*/
+      .post > p:first-of-type{font-size:1.5rem; line-height:2.427rem;} /*1.2 & 1.618*/
+    }
+  /*END LARGER THAN 900PX*/
+
+  #headerBackground{display:none;}
+  </style>
+
+
+
+
+
+
+
+
+
+<style>
+.postNav{
+    width:32%;
+    display:inline-table;
+    float:inherit;}
+.random{
+    float:inherit;}
+</style>
+
+
+
+
+
+<style>
+    img{width:100%;}
+    .postAuthorImage{width:inherit;}
+    img.avatar {width:inherit;}
+    #instafeed img{width:initial;}
+</style>
+
+
+
+
+<link rel="alternate" href="android-app://com.tumblr/tumblr/x-callback-url/blog?blogName=gifloop%26postID=2748179648" /><link rel="alternate" href="ios-app://305343404/tumblr/x-callback-url/blog?blogName=gifloop&postID=2748179648" /><link rel="alternate" type="application/json+oembed" href="https://www.tumblr.com/oembed/1.0?url=https://gifloop.tumblr.com/post/2748179648" title=""/><link rel="amphtml" href=https://gifloop.tumblr.com/post/2748179648/amp /><script
+    defer
+    type="application/javascript"
+    id="bilmur"
+    data-provider="tumblr.com"
+    data-service="blognetwork"
+    nonce="WmB8BxMRHMI1SOYlkdcAm7QdfY"
+    src="https://s0.wp.com/wp-content/js/bilmur.min.js?m=202244"
+  ></script><script src="https://assets.tumblr.com/assets/scripts/tumblelog_post_message_queue.js?_v=a8fadfa499d8cb7c3f8eefdf0b1adfdd"></script><link rel="stylesheet" type="text/css" href="https://assets.tumblr.com/fonts/callunasans/stylesheet.css?v=3"><link rel="stylesheet" type="text/css" href="https://assets.tumblr.com/fonts/calluna/stylesheet.css?v=3"><link rel="stylesheet" type="text/css" href="https://assets.tumblr.com/fonts/gibson/stylesheet.css?v=3"><meta name="keywords" content="gif,videogame,pokemon" /><!-- GOOGLE CAROUSEL --><script type="application/ld+json">
+	{"@type":"SocialMediaPosting","url":"https:\/\/gifloop.tumblr.com\/post\/2748179648","mainEntityOfPage":true,"datePublished":"2011-01-14T20:29:00+00:00","author":"gifloop","image":"https:\/\/64.media.tumblr.com\/tumblr_lex957x1KA1qgogf5o1_250.gifv","@context":"http:\/\/schema.org"}</script><link rel="canonical" href="https://gifloop.tumblr.com/post/2748179648" /></head>
+<body onload="prettyPrint()" tabindex="0" onkeydown="keyPress(event)"> <!--load syntax highlighter-->
+
+
+<div id="sb-site"> <!--main content for animation-->
+
+<!--++++++-->
+<!--SPLASH-->
+<!--++++++-->
+
+  
+    <div id="splashTint"></div>
+    <div id="splashGradient"></div>
+    <div id="splashContainer"></div>
+  
+
+
+<!--++++++-->
+<!--HEADER-->
+<!--++++++-->
+<div class="fullRow header" id="header">
+  <div class="spaceSmall hideOnSplash"></div> <!--space at top-->
+
+  <!--IMAGE-->
+  
+
+  <!--TITLE-->
+  <h1 id="bigTitle"><a href="https://gifloop.tumblr.com/">GIF universe</a></h1>
+
+  <!--BACK-->
+  
+    <div class="backButtonContainer hideOnPrint"> <!--back button, hide on index, show on permalink-->
+      <a class="backButton" href="https://gifloop.tumblr.com/"><i class="fa fa-long-arrow-left"></i> GIF universe</a>
+    </div>
+  
+
+  <!--DESCRIPTION-->
+  
+  <p class="light">Lyle Ale Xander Farrell</p>
+  
+
+  <!--MENU-->
+  <ul>
+    
+      <li>
+        <a class="light" href="/perspective">Perspective</a>
+      </li>
+    
+  </ul>
+
+  <div class="spaceSmall"></div> <!--space at end of header-->
+</div>
+<!--++++++++++-->
+<!--END HEADER-->
+<!--++++++++++-->
+
+<!--+++++++++++++++++-->
+<!--HEADER BACKGROUND-->
+<!--+++++++++++++++++-->
+  
+
+<!--+++++++-->
+<!--CONTENT-->
+<!--+++++++-->
+<div class="row">
+<div class="spaceSmall"></div> <!--space after header-->
+  <ol class="posts">
+
+<!--POST TYPES-->
+
+
+<!--++++++++++-->
+<!--TEXT POSTS-->
+<!--++++++++++-->
+
+<!--+++++++++++++-->
+<!--END TEXT POST-->
+<!--+++++++++++++-->
+
+
+<!--+++++-->
+<!--PHOTO-->
+<!--+++++-->
+
+  <li class="post photo">
+
+      
+        <span class="postAuthor hideOnIndex">
+          
+              <a href="https://gifloop.tumblr.com/"><img class="postAuthorImage" src="https://64.media.tumblr.com/avatar_9dcf25924c1f_30.pnj"/></a>
+              Posted by:
+              <a href="https://gifloop.tumblr.com/"> gifloop </a>
+          
+
+          
+              on 14 janvier 2011
+          
+
+        
+
+        </span>
+      
+
+    <a href="https://gifloop.tumblr.com/post/2748179648">
+      <img src="https://64.media.tumblr.com/tumblr_lex957x1KA1qgogf5o1_250.gifv" alt=""/>
+    </a>
+
+    
+
+    
+
+    
+    <div class="contentReblog">
+        <i class="fa fa-retweet"></i> Reblogged from:
+        <a href="https://gastlyhauntergengar-deactivated.tumblr.com/post/2715519281"><img class="postAuthorImage" src="https://64.media.tumblr.com/avatar_c0df0300489f_24.pnj"/></a>
+        <a href="https://gastlyhauntergengar-deactivated.tumblr.com/post/2715519281">gastlyhauntergengar-deactivated</a>
+    </div>
+    
+
+  </li>
+
+  <!--POST FOOTER FOR PHOTO-->
+    <div class="postFooter">
+      <ul class="postStats">
+        
+
+          
+            <li class="tags">
+                <a href="https://gifloop.tumblr.com/tagged/gif" class="nobold">gif</a>
+            </li>
+          
+            <li class="tags">
+                <a href="https://gifloop.tumblr.com/tagged/videogame" class="nobold">videogame</a>
+            </li>
+          
+            <li class="tags">
+                <a href="https://gifloop.tumblr.com/tagged/pokemon" class="nobold">pokemon</a>
+            </li>
+          
+
+          
+
+          
+      </ul>
+    </div>
+  <!--END POST FOOTER-->
+
+<!--+++++++++-->
+<!--END PHOTO-->
+<!--+++++++++-->
+
+
+<!--+++++++++-->
+<!--PANORAMA-->
+<!--+++++++++-->
+
+<!--++++++++++++-->
+<!--END PANORAMA-->
+<!--++++++++++++-->
+
+
+<!--++++++++-->
+<!--PHOTOSET-->
+<!--++++++++-->
+
+<!--++++++++++++-->
+<!--END PHOTOSET-->
+<!--++++++++++++-->
+
+
+<!--+++++-->
+<!--QUOTE-->
+<!--+++++-->
+
+<!--+++++++++-->
+<!--END QUOTE-->
+<!--+++++++++-->
+
+
+<!--++++-->
+<!--LINK-->
+<!--++++-->
+
+<!--++++++++-->
+<!--END LINK-->
+<!--++++++++-->
+
+
+<!--++++-->
+<!--CHAT-->
+<!--++++-->
+
+<!--++++++++-->
+<!--END CHAT-->
+<!--++++++++-->
+
+
+<!--+++++-->
+<!--VIDEO-->
+<!--+++++-->
+
+<!--+++++++++-->
+<!--END VIDEO-->
+<!--+++++++++-->
+
+
+<!--+++++-->
+<!--AUDIO-->
+<!--+++++-->
+
+<!--+++++++++-->
+<!--END AUDIO-->
+<!--+++++++++-->
+
+
+<!--++++++-->
+<!--ANSWER-->
+<!--++++++-->
+
+<!--+++++++-->
+<!--END ASK-->
+<!--+++++++-->
+
+
+<div class="space"></div> <!--space between each post-->
+
+<!--+++++++++-->
+<!--END POSTS-->
+<!--+++++++++-->
+
+<!--++++++++++++++-->
+<!--PERMALINK PAGE-->
+<!--++++++++++++++-->
+<!--Display only on
+    permalink page-->
+
+
+  <!--Keyboard Controls-->
+  
+    
+    <a id="previousPost" href="https://gifloop.tumblr.com/post/2716646162"></a>
+    <a id="nextPost" href="https://gifloop.tumblr.com/post/2716653406"></a>
+    <a id="randomPost" href="https://gifloop.tumblr.com/random"></a>
+    <p class="pCenter">
+        <a class="hint" id="tooltip" data-title=" Use your arrow keys to navigate OR use the forward slash to load a random post">
+          <i class="fa fa-keyboard-o"></i>
+        </a>
+    </p>
+    
+  
+
+  <!--Post Navigation-->
+  
+    
+      <div class="permalinkPagination hideOnPrint">
+
+        
+          <a class="postNav" id="previousPost" href="https://gifloop.tumblr.com/post/2716646162"><i class="fa fa-long-arrow-left"></i></a>
+        
+
+        
+              <a class="postNav" href="https://gifloop.tumblr.com/random"><i class="fa fa-random"></i></a>
+        
+
+        
+          <a class="postNav" id="nextPost" href="https://gifloop.tumblr.com/post/2716653406"><i class="fa fa-long-arrow-right"></i></a>
+        
+
+      </div>
+      <div class="spaceSmall"></div> <!--space-->
+    
+  
+
+  <!--Disqus Comments-->
+  
+
+  <!--Notes-->
+  
+    
+<ol class="notes"><!-- START NOTES --><li class="note like tumblelog_alinenunesn without_commentary"><a rel="nofollow" class="avatar_frame" target="_blank" href="https://alinenunesn.tumblr.com/" title="GOSTEI!!POSTEI!! " rel="nofollow"><img src="https://assets.tumblr.com/images/default_avatar/cone_open_16.png" class="avatar " alt="" /></a><span class="action"><a rel="nofollow" href="https://alinenunesn.tumblr.com/" title="GOSTEI!!POSTEI!!" rel="nofollow">alinenunesn</a> a ajouté ce billet à ses coups de cœur                                    </span><div class="clear"></div></li><li class="note like tumblelog_notdayanasblog without_commentary"><a rel="nofollow" class="avatar_frame" target="_blank" href="https://notdayanasblog.tumblr.com/" title="AAAAAAAA " rel="nofollow"><img src="https://64.media.tumblr.com/avatar_ec681fe0d9dd_16.pnj" class="avatar " alt="" /></a><span class="action"><a rel="nofollow" href="https://notdayanasblog.tumblr.com/" title="AAAAAAAA" rel="nofollow">notdayanasblog</a> a ajouté ce billet à ses coups de cœur                                    </span><div class="clear"></div></li><li class="note reblog tumblelog_brumerouge without_commentary"><a rel="nofollow" class="avatar_frame" target="_blank" href="https://brumerouge.tumblr.com/" title="ポケットモンスタ"><img src="https://64.media.tumblr.com/avatar_fed44c0cf7bb_16.pnj" class="avatar " alt="" /></a><span class="action" data-post-url="https://brumerouge.tumblr.com/post/150081511862"><a rel="nofollow" href="https://brumerouge.tumblr.com/post/150081511862" class="tumblelog" title="ポケットモンスタ">brumerouge</a> a reblogué ce billet depuis <a rel="nofollow" href="https://gifloop.tumblr.com/" class="source_tumblelog" title="GIF universe">gifloop</a>                                                                                                                                                                                    </span><div class="clear"></div></li><li class="note like tumblelog_theluteceteardevice without_commentary"><a rel="nofollow" class="avatar_frame" target="_blank" href="https://theluteceteardevice.tumblr.com/" title="Neon Tree " rel="nofollow"><img src="https://64.media.tumblr.com/avatar_52209ad38759_16.pnj" class="avatar " alt="" /></a><span class="action"><a rel="nofollow" href="https://theluteceteardevice.tumblr.com/" title="Neon Tree" rel="nofollow">theluteceteardevice</a> a ajouté ce billet à ses coups de cœur                                    </span><div class="clear"></div></li><li class="note reblog tumblelog_sheabutterwxtch-blog without_commentary"><a rel="nofollow" class="avatar_frame" target="_blank" href="https://sheabutterwxtch-blog.tumblr.com/" title="{space}"><img src="https://64.media.tumblr.com/avatar_5d784a708898_16.pnj" class="avatar " alt="" /></a><span class="action" data-post-url="https://sheabutterwxtch-blog.tumblr.com/post/100320460355"><a rel="nofollow" href="https://sheabutterwxtch-blog.tumblr.com/post/100320460355" class="tumblelog" title="{space}">sheabutterwxtch-blog</a> a reblogué ce billet depuis <a rel="nofollow" href="https://jane-thor-foster.tumblr.com/" class="source_tumblelog" title="More like Jane FosThor am i right guys">jane-thor-foster</a>                                                                                                                                                                                    </span><div class="clear"></div></li><li class="note like tumblelog_sheabutterwxtch-blog without_commentary"><a rel="nofollow" class="avatar_frame" target="_blank" href="https://sheabutterwxtch-blog.tumblr.com/" title="{space} " rel="nofollow"><img src="https://64.media.tumblr.com/avatar_5d784a708898_16.pnj" class="avatar " alt="" /></a><span class="action"><a rel="nofollow" href="https://sheabutterwxtch-blog.tumblr.com/" title="{space}" rel="nofollow">sheabutterwxtch-blog</a> a ajouté ce billet à ses coups de cœur                                    </span><div class="clear"></div></li><li class="note reblog tumblelog_jane-thor-foster without_commentary"><a rel="nofollow" class="avatar_frame" target="_blank" href="https://jane-thor-foster.tumblr.com/" title="More like Jane FosThor am i right guys"><img src="https://64.media.tumblr.com/avatar_7d316a60d1f2_16.pnj" class="avatar " alt="" /></a><span class="action" data-post-url="https://jane-thor-foster.tumblr.com/post/100319139052"><a rel="nofollow" href="https://jane-thor-foster.tumblr.com/post/100319139052" class="tumblelog" title="More like Jane FosThor am i right guys">jane-thor-foster</a> a reblogué ce billet depuis <a rel="nofollow" href="https://gifloop.tumblr.com/" class="source_tumblelog" title="GIF universe">gifloop</a>                                                                                                                                                                                    </span><div class="clear"></div></li><li class="note reblog tumblelog_isthiswhaty0uwanted without_commentary"><a rel="nofollow" class="avatar_frame" target="_blank" href="https://isthiswhaty0uwanted.tumblr.com/" title="&Agrave; la folie."><img src="https://64.media.tumblr.com/avatar_6878f2f1d0e9_16.pnj" class="avatar " alt="" /></a><span class="action" data-post-url="https://isthiswhaty0uwanted.tumblr.com/post/3209269646"><a rel="nofollow" href="https://isthiswhaty0uwanted.tumblr.com/post/3209269646" class="tumblelog" title="&Agrave; la folie.">isthiswhaty0uwanted</a> a reblogué ce billet depuis <a rel="nofollow" href="https://z0inkss.tumblr.com/" class="source_tumblelog" title="lahasa">z0inkss</a>                                                                                                                                                                                    </span><div class="clear"></div></li><li class="note reblog tumblelog_z0inkss without_commentary"><a rel="nofollow" class="avatar_frame" target="_blank" href="https://z0inkss.tumblr.com/" title="lahasa"><img src="https://64.media.tumblr.com/avatar_a9114e17e830_16.pnj" class="avatar " alt="" /></a><span class="action" data-post-url="https://z0inkss.tumblr.com/post/3209219389"><a rel="nofollow" href="https://z0inkss.tumblr.com/post/3209219389" class="tumblelog" title="lahasa">z0inkss</a> a reblogué ce billet depuis <a rel="nofollow" href="https://fiaskoblogs.tumblr.com/" class="source_tumblelog" title="Existence Isn&#039;t Enough">fiaskoblogs</a>                                                                                                                                                                                    </span><div class="clear"></div></li><li class="note reblog tumblelog_fiaskoblogs without_commentary"><a rel="nofollow" class="avatar_frame" target="_blank" href="https://fiaskoblogs.tumblr.com/" title="Existence Isn&#039;t Enough"><img src="https://64.media.tumblr.com/avatar_dbcd9151a9a7_16.pnj" class="avatar " alt="" /></a><span class="action" data-post-url="https://fiaskoblogs.tumblr.com/post/3195809529"><a rel="nofollow" href="https://fiaskoblogs.tumblr.com/post/3195809529" class="tumblelog" title="Existence Isn&#039;t Enough">fiaskoblogs</a> a reblogué ce billet depuis <a rel="nofollow" href="https://gengarlovescake.tumblr.com/" class="source_tumblelog" title="Home to a Space Invader">gengarlovescake</a>                                                                                                                                                                                    </span><div class="clear"></div></li><li class="note reblog tumblelog_gengarlovescake without_commentary"><a rel="nofollow" class="avatar_frame" target="_blank" href="https://gengarlovescake.tumblr.com/" title="Home to a Space Invader"><img src="https://64.media.tumblr.com/avatar_21d19453a4a9_16.pnj" class="avatar " alt="" /></a><span class="action" data-post-url="https://gengarlovescake.tumblr.com/post/3195616005"><a rel="nofollow" href="https://gengarlovescake.tumblr.com/post/3195616005" class="tumblelog" title="Home to a Space Invader">gengarlovescake</a> a reblogué ce billet depuis <a rel="nofollow" href="https://mafontanaaa.tumblr.com/" class="source_tumblelog" title="Pillow Talk">mafontanaaa</a>                                                                                                                                                                                    </span><div class="clear"></div></li><li class="note reblog tumblelog_wavyqsowavy without_commentary"><a rel="nofollow" class="avatar_frame" target="_blank" href="https://wavyqsowavy.tumblr.com/" title="QWaYne"><img src="https://64.media.tumblr.com/avatar_87fa3be66eab_16.pnj" class="avatar " alt="" /></a><span class="action" data-post-url="https://wavyqsowavy.tumblr.com/post/3041650102"><a rel="nofollow" href="https://wavyqsowavy.tumblr.com/post/3041650102" class="tumblelog" title="QWaYne">wavyqsowavy</a> a reblogué ce billet depuis <a rel="nofollow" href="https://little-bats.tumblr.com/" class="source_tumblelog" title="you said okay">little-bats</a>                                                                                                                                                                                    </span><div class="clear"></div></li><li class="note reblog tumblelog_kaylaviee without_commentary"><a rel="nofollow" class="avatar_frame" target="_blank" href="https://kaylaviee.tumblr.com/" title=""><img src="https://64.media.tumblr.com/avatar_44a81659f527_16.pnj" class="avatar " alt="" /></a><span class="action" data-post-url="https://kaylaviee.tumblr.com/post/2802673110"><a rel="nofollow" href="https://kaylaviee.tumblr.com/post/2802673110" class="tumblelog" title="">kaylaviee</a> a reblogué ce billet depuis <a rel="nofollow" href="https://macabresunrises-blog.tumblr.com/" class="source_tumblelog" title="">macabresunrises-blog</a>                                                                                                                                                                                    </span><div class="clear"></div></li><!-- END NOTES --></ol><div class="spaceSmall"></div>
+  
+
+
+<!--+++++++++++++-->
+<!--END PERMALINK-->
+<!--+++++++++++++-->
+
+  </ol> <!--Ordered list for posts to be displayed, take this out?-->
+</div> <!--Content row-->
+
+<!--+++++++++++-->
+<!--END CONTENT-->
+<!--+++++++++++-->
+
+<!--++++++-->
+<!--FOOTER-->
+<!--++++++-->
+
+<!--Page Navigation-->
+
+
+
+<div class="postBottom hideOnPrint"> <!--hide on index, show on permalink-->
+  <div>
+
+    <!--Title-->
+    <h3><a href="https://gifloop.tumblr.com/">GIF universe</a></h3>
+
+    <!--Social Media-->
+    <ul>
+      
+        <li>
+          <a target="_blank" href="www.Facebook.com" id="facebook"><i class="fa fa-facebook-square"></i></a>
+        </li>
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+      
+    </ul>
+
+  </div>
+</div>
+
+
+<div class="bottom hideOnPrint">
+  <!--Links-->
+  <div id="bottomLinks">
+    <a href="https://gifloop.tumblr.com/">Home</a>
+    <a href="/archive">Archive</a>
+    
+      <a id="askButton" href="/ask">Posez-moi vos questions</a>
+    
+    
+      <a id="submitButton" href="/submit">The Gift of a Gif</a>
+    
+    
+      <a href="mailto:Email" id="Email">Email</a>
+    
+  </div>
+
+  <!--Blurb-->
+  <div id="bottomBlurb">
+    <p class="powered">
+      <a href="https://www.tumblr.com/theme/38875">Paper</a> theme built by <a href="https://brickspacelab.com/">Brickspace Lab</a>
+    </p>
+  </div>
+
+</div>
+
+<div class="spaceSmall"></div>
+<!--++++++++++-->
+<!--END FOOTER-->
+<!--++++++++++-->
+
+
+<!--++++++++++++-->
+<!--ASK & SUBMIT-->
+<!--++++++++++++-->
+<div class="asksubmit hideOnPrint">
+  <a name="asksubmit"></a>
+  
+    <div class="row" id="ask">
+    <a href="https://www.tumblr.com/ask_form/USER.tumblr.com" id="askSource"></a>
+        <iframe id="askBox" frameborder="0" scrolling="no" width="100%" height="190" style="background-color:transparent; overflow:hidden;" id="ask_form"></iframe>
+    </div>
+  
+
+  
+    <div class="row" id="submit">
+    <a href="https://www.tumblr.com/submit_form/USER.tumblr.com" id="submitSource"></a>
+        <iframe id="submitBox" src="https://www.tumblr.com/submit_form/USER.tumblr.com" frameborder="0" height="500" scrolling="no" width="100%"></iframe>
+    </div>
+  
+</div>
+<!--+++++++++++-->
+<!--END ASK/SUB-->
+<!--+++++++++++-->
+
+
+
+    <div id="recent">
+        <div class="spaceSmall"></div>
+        <div class="row">
+                <p id="recentPost">Recent Post</p>
+
+                <h3 id="recentTitle"></h3>
+
+                
+                <span id="recentAuthor"></span>
+                
+
+                <span id="recentDate"></span>
+
+                <p id="recentSummary"></p>
+
+              <a href="https://gifloop.tumblr.com/post/2748179648" class="readMoreButton">
+                Read more <i class="fa fa-long-arrow-right"></i>
+              </a>
+
+        </div>
+        <div class="spaceSmall"></div>
+    </div>
+
+
+
+<!--Instagram feed-->
+
+
+</div> <!--main window to animate-->
+
+<!--++++++++++++-->
+<!--EXTRA SHEETS-->
+<!--++++++++++++-->
+<link href="//netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.css" rel="stylesheet">
+<link href="https://static.tumblr.com/9hupah0/v7Anhowir/twemoji-awesome.min.css" rel="stylesheet">
+
+<!--+++++++-->
+<!--SCRIPTS-->
+<!--+++++++-->
+<script type="text/javascript" src="//ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js" ></script>
+<script type="text/javascript" src="https://static.tumblr.com/smotcsf/phJn1y2w7/prettify.js"></script>
+
+<script type="text/javascript" src="https://static.tumblr.com/smotcsf/Ecdn2cscy/pxuphotoset.min.js"></script>
+<script type="text/javascript" src="https://static.tumblr.com/9hupah0/oVJn4m3gk/script.min.js"></script>
+
+
+
+
+<script>
+    //SPLASH
+    //If a splash image is avaliable
+    if(document.getElementById("splash"))
+    {
+        var source = document.getElementById("splash").src;
+        $("#splashContainer").css({"background-image":'url(' + source + ')'});
+        $("#splashContainer").css({"display": "block"});
+        $(".hideOnSplash").css({"display": "none"});
+        $("#splashTint").css({"display": "block"});
+        $(".postHead").css({
+                "position": "absolute",
+                "top": "20vh",
+                "color": "white"});
+        $(".title").css({"color": "white"});
+        $(".postAuthor").css({"color": "white"});
+        $(".header").css({
+                "position": "absolute",
+                "opacity": "0.6",
+                "top": "1rem"});
+        $(".backButton").css({
+                "border": "none",
+                "color": "white"});
+
+        //If screen is 480px or smaller
+        if (matchMedia('only screen and (max-width: 480px)').matches)
+        {
+            var newHeight = $(window).height();
+            var newWidth = $(window).width();
+
+            $('#splashContainer').height(newHeight);
+            $('#splashTint').height(newHeight);
+            $(".header").css({"top": "1rem"});
+            $(".postHead").css({"top": "5rem"});
+        }
+    }
+
+    //SPLASH FADE
+    if(document.getElementById("splashFade"))
+    {
+        var source = document.getElementById("splashFade").src;
+        $("#splashContainer").css({"background-image":'url(' + source + ')'});
+        $("#splashGradient").css({"display": "block"});
+        $("#splashContainer").css({
+                "display": "block",
+                "opacity": "1"});
+        $(".hideOnSplash").css({"display": "none"});
+        $("#splashTint").css({"display": "none"});
+        $("li.post.text").css({
+                "position": "relative",
+                "margin-top": "-30vh"
+        });
+        $(".header").css({
+                "position": "absolute",
+                "top": "1rem"});
+        $(".backButton").css({
+                "border": "none",
+                "color": "white"});
+
+        //If screen is 480px or smaller
+        if (matchMedia('only screen and (max-width: 480px)').matches)
+        {
+            var newHeight = $(window).height();
+            var newWidth = $(window).width();
+
+            $('#splashContainer').height(newHeight);
+            $("#splashGradient").height(newHeight);
+            $(".header").css({"top": "1rem"});
+            $("li.post.text").css({"margin-top": "-20vh"});
+        }
+    }
+</script>
+
+
+<!--KEYBOARD NAV ON INDEX-->
+
+  
+
+
+<!--KEYBOARD NAV ON PAGES-->
+
+  
+    
+      <script>
+        //RANDOM NAVIGATION FOR INDEX
+        document.body.onkeydown = function(e){
+              if (e == null) {
+                  keycode = event.keyCode;
+              } else {
+                  keycode = e.which;
+              }
+              if(keycode == 191){
+                  $("#sb-site").addClass( "fadeAnimate" );
+                  setTimeout(function(){
+                      window.location = 'https://gifloop.tumblr.com/' + 'random';
+                  },100);
+              }
+               if (url) {
+              window.location = url;
+              }
+          };
+      </script>
+    
+  
+
+
+<!--PERSONAL INSTAFEED-->
+
+
+<!--INSTAFEED OF A TAG-->
+
+
+<!--PERMALINK ONLY-->
+
+  
+    
+      <script>
+
+        //KEYBOARD NAVIGATION FOR PERMALINK
+        document.body.onkeydown = function(e){
+
+              if (e == null) {
+                  keycode = event.keyCode;
+              } else {
+                  keycode = e.which;
+              }
+              if(keycode == 39){
+                  e.preventDefault();
+                  $('#sb-site').addClass( "leftAnimate" );
+                  setTimeout(function(){
+                      window.location = $('#nextPost').attr('href');
+                  },100);
+              } else if(keycode == 37){
+                  e.preventDefault();
+                  $('#sb-site').addClass( "rightAnimate" );
+                  setTimeout(function(){
+                      window.location = $('#previousPost').attr('href');
+                  },100);
+              }
+              else if(keycode == 191){
+                  e.preventDefault();
+                  $("#sb-site").addClass( "fadeAnimate" );
+                  setTimeout(function(){
+                      window.location = 'https://gifloop.tumblr.com/' + 'random';
+                  },100);
+              }
+          };
+
+      </script>
+    
+  
+
+
+<!--PERMALINK ONLY-->
+
+    <script>
+        function shareFunction() {
+        var myWindow = window.open("https://www.facebook.com/sharer/sharer.php?u="+ window.location, "", "width=450, height=279");
+        }
+    </script>
+
+
+<!--PERMALINK ONLY-->
+
+    
+    <script>
+
+        //Get title of recent posts
+        var src = 'https://gifloop.tumblr.com/' + "rss";
+
+        $.get(src, function (data) {
+            $(data).find("item").first().each(function () { // or "item" or whatever suits your feed
+                var el = $(this);
+
+                var title = el.find("title").text().substr(0,50);
+                var date = el.find("pubDate").text().substr(5,11);
+                var author = el.find("creator").text();
+                var summary = el.find("description").text().substr(0,75);
+                var link = el.find("link").text();
+
+                $("#recent").click(function(){
+                    $("#sb-site").addClass( "slideUp" );
+                      setTimeout(function(){
+                          window.location= link;
+                      },100);
+                     return false;
+                });
+
+                document.getElementById("recentTitle").innerHTML=title + "...";
+                document.getElementById("recentDate").innerHTML="on " + date;
+                document.getElementById("recentAuthor").innerHTML=author;
+                document.getElementById("recentSummary").innerHTML=summary + "...";
+
+
+            });
+        });
+    </script>
+    
+
+
+
+
+<iframe scrolling="no" width="1" height="1" frameborder="0" style="background-color:transparent; overflow:hidden; position:absolute; top:0; left:0; z-index:9999;" id="ga_target"></iframe><script type="text/javascript">
+    (function(){
+        var analytics_frame = document.getElementById('ga_target');
+        var analytics_iframe_loaded;
+        var user_logged_in;
+        var blog_is_nsfw = 'No';
+
+        var eventMethod = window.addEventListener ? "addEventListener" : "attachEvent";
+        var eventer = window[eventMethod];
+        var messageEvent = eventMethod == "attachEvent" ? "onmessage" : "message";
+        eventer(messageEvent,function(e) {
+            var message = (e.data && e.data.split) ? e.data.split(';') : '';
+            switch (message[0]) {
+                case 'analytics_iframe_loaded':
+                    analytics_iframe_loaded = true;
+                    postCSMessage();
+                    postGAMessage();
+                    break;
+                case 'user_logged_in':
+                    user_logged_in = message[1];
+                    postGAMessage();
+                    break;
+            }
+        }, false);
+
+        analytics_frame.src = "https://assets.tumblr.com/analytics.html?_v=9f5febfd57a8a649c598d888f2d9e062#" +
+                              "https://gifloop.tumblr.com";
+        function postGAMessage() {
+            if (analytics_iframe_loaded && user_logged_in) {
+                var is_ajax = false;
+                analytics_frame.contentWindow.postMessage(['tick_google_analytics', is_ajax, user_logged_in, blog_is_nsfw, '/post/2748179648?route=%2Fpost%2F%3Aid'].join(';'), analytics_frame.src.split('/analytics.html')[0]);
+            }
+        }
+        function postCSMessage() {
+            COMSCORE = true;
+            analytics_frame.contentWindow.postMessage('enable_comscore;' + window.location, analytics_frame.src.split('/analytics.html')[0]);
+        }
+    })();
+</script><script type="text/javascript" nonce="WmB8BxMRHMI1SOYlkdcAm7QdfY">!function(s){s.src='https://px.srvcs.tumblr.com/impixu?T=1667208137&J=eyJ0eXBlIjoidXJsIiwidXJsIjoiaHR0cDovL2dpZmxvb3AudHVtYmxyLmNvbS9wb3N0LzI3NDgxNzk2NDgiLCJyZXF0eXBlIjowLCJyb3V0ZSI6Ii9wb3N0LzppZCJ9&U=KKLKKJFMBK&K=faf9e796ca0f81784218518fefb1ee5eeae3b437be7194ae46d20ad735cd2c5d&R='.replace(/&R=[^&$]*/,'').concat('&R='+escape(document.referrer)).slice(0,2000).replace(/%.?.?$/,'');}(new Image());</script><noscript><img style="position:absolute;z-index:-3334;top:0px;left:0px;visibility:hidden;" src="https://px.srvcs.tumblr.com/impixu?T=1667208137&J=eyJ0eXBlIjoidXJsIiwidXJsIjoiaHR0cDovL2dpZmxvb3AudHVtYmxyLmNvbS9wb3N0LzI3NDgxNzk2NDgiLCJyZXF0eXBlIjowLCJyb3V0ZSI6Ii9wb3N0LzppZCIsIm5vc2NyaXB0IjoxfQ==&U=KKLKKJFMBK&K=0e908d9ede465d410dc732273993c26ec4e0ce3d47d6515e79c8bb6fb0af6b4c&R="></noscript><script type="text/javascript" nonce="WmB8BxMRHMI1SOYlkdcAm7QdfY">!function(s){s.src='https://px.srvcs.tumblr.com/impixu?T=1667208137&J=eyJ0eXBlIjoicG9zdCIsInVybCI6Imh0dHA6Ly9naWZsb29wLnR1bWJsci5jb20vcG9zdC8yNzQ4MTc5NjQ4IiwicmVxdHlwZSI6MCwicm91dGUiOiIvcG9zdC86aWQiLCJwb3N0cyI6W3sicm9vdF9ibG9naWQiOiIxMjEwMzMwMSIsInJvb3RfcG9zdGlkIjoiMjcxNTQ5NjYzNyIsInBvc3RpZCI6IjI3NDgxNzk2NDgiLCJibG9naWQiOjYwMDQzNzYsInNvdXJjZSI6MzN9XX0=&U=HFFAKHDPLK&K=6a70d1e4bff04991b637927f345c5474dc10a648989d3db0611fc64e3409c9f8&R='.replace(/&R=[^&$]*/,'').concat('&R='+escape(document.referrer)).slice(0,2000).replace(/%.?.?$/,'');}(new Image());</script><noscript><img style="position:absolute;z-index:-3334;top:0px;left:0px;visibility:hidden;" src="https://px.srvcs.tumblr.com/impixu?T=1667208137&J=eyJ0eXBlIjoicG9zdCIsInVybCI6Imh0dHA6Ly9naWZsb29wLnR1bWJsci5jb20vcG9zdC8yNzQ4MTc5NjQ4IiwicmVxdHlwZSI6MCwicm91dGUiOiIvcG9zdC86aWQiLCJwb3N0cyI6W3sicm9vdF9ibG9naWQiOiIxMjEwMzMwMSIsInJvb3RfcG9zdGlkIjoiMjcxNTQ5NjYzNyIsInBvc3RpZCI6IjI3NDgxNzk2NDgiLCJibG9naWQiOjYwMDQzNzYsInNvdXJjZSI6MzN9XSwibm9zY3JpcHQiOjF9&U=HFFAKHDPLK&K=68e747af8b7fb1c4e5a7173e107c349f36bb1024646f23ed762a5fa622db0ad2&R="></noscript><noscript id="bootloader" data-bootstrap="{&quot;Components&quot;:{&quot;PostActivity&quot;:[],&quot;NotificationPoller&quot;:{&quot;messaging_keys&quot;:[],&quot;token&quot;:&quot;c86f8a500596474a7ef5034081f694bd&quot;,&quot;inbox_unread&quot;:0},&quot;DesktopDashboardLogo&quot;:{&quot;animations&quot;:[[&quot;https:\/\/assets.tumblr.com\/images\/logo\/hover-animations\/1.png?_v=161861acded461bb6e995593a3bae835&quot;,&quot;https:\/\/assets.tumblr.com\/images\/logo\/hover-animations\/1@2x.png?_v=496a774637302a598c851381d00009b0&quot;]]},&quot;TumblelogIframe&quot;:{&quot;unified&quot;:true,&quot;variant&quot;:null,&quot;isCompact&quot;:true,&quot;tumblelogBundleSrc&quot;:&quot;https:\/\/assets.tumblr.com\/client\/prod\/standalone\/tumblelog\/index.build.js?_v=26ab9405e121aac30eb3fc48a62a0f69&quot;,&quot;tumblelogName&quot;:&quot;gifloop&quot;,&quot;isLoggedIn&quot;:false,&quot;isFriend&quot;:false,&quot;formKey&quot;:&quot;&quot;,&quot;canSubscribe&quot;:false,&quot;isSubscribed&quot;:false,&quot;tumblelogTitle&quot;:&quot;GIF universe&quot;,&quot;tumblelogAvatar&quot;:&quot;https:\/\/64.media.tumblr.com\/avatar_9dcf25924c1f_64.pnj&quot;,&quot;tumblelogAvatar128&quot;:&quot;https:\/\/64.media.tumblr.com\/avatar_9dcf25924c1f_128.pnj&quot;,&quot;tumblelogHost&quot;:&quot;https:\/\/gifloop.tumblr.com&quot;,&quot;isOptica&quot;:false,&quot;isCustomTheme&quot;:false,&quot;themeHeaderImage&quot;:&quot;https:\/\/assets.tumblr.com\/images\/default_header\/optica_pattern_01.png?_v=f67ca5ac5d1c4a0526964674cb5a0605&quot;,&quot;themeBackgroundColor&quot;:&quot;#FAFAFA&quot;,&quot;themeTitleColor&quot;:&quot;#213758&quot;,&quot;themeAccentColor&quot;:&quot;#529ECC&quot;,&quot;brag&quot;:true,&quot;canShowAd&quot;:true,&quot;isPremium&quot;:false,&quot;showLrecAds&quot;:false,&quot;showStickyLrecBackfill&quot;:false,&quot;showGeminiAds&quot;:false,&quot;geminiSectionCodeDesktop&quot;:&quot;a10bca9c-0c5d-4a02-ab13-14ab8513d81d&quot;,&quot;geminiSectionCodeMobile&quot;:&quot;ced63809-b609-4aca-96a0-abc099acba6b&quot;,&quot;currentPageType&quot;:&quot;single_post&quot;,&quot;currentPage&quot;:1,&quot;searchQuery&quot;:&quot;&quot;,&quot;tag&quot;:&quot;&quot;,&quot;query&quot;:&quot;&quot;,&quot;chrono&quot;:false,&quot;postId&quot;:&quot;2748179648&quot;,&quot;src&quot;:&quot;https:\/\/gifloop.tumblr.com\/post\/2748179648&quot;,&quot;postUrl&quot;:&quot;&quot;,&quot;openInPeeprUrl&quot;:&quot;https:\/\/www.tumblr.com\/gifloop&quot;,&quot;isBlocked&quot;:null,&quot;isAdmin&quot;:false,&quot;lookupButtonUrl&quot;:&quot;&quot;,&quot;showSpamButton&quot;:false,&quot;showRootPostButton&quot;:false,&quot;rootPostUrl&quot;:&quot;&quot;,&quot;showRadarPostButton&quot;:false,&quot;radarKeys&quot;:&quot;&quot;,&quot;isUniblocked&quot;:false,&quot;isNsfw&quot;:false,&quot;isAdult&quot;:false,&quot;isSpam&quot;:false,&quot;isPrimaryBlog&quot;:false,&quot;canEdit&quot;:false,&quot;canReblogSelf&quot;:false,&quot;showLikeButton&quot;:false,&quot;showReblogButton&quot;:false,&quot;reblogUrl&quot;:&quot;&quot;,&quot;showMessagingButton&quot;:false,&quot;loginCheckIframeSrc&quot;:&quot;https:\/\/assets.tumblr.com\/assets\/html\/iframe\/login_check.html?_v=3de94a184d600617102ddd5b48fb36e9&quot;,&quot;appInstallUrls&quot;:{&quot;android&quot;:&quot;https:\/\/play.google.com\/store\/apps\/details?id=com.tumblr\u0026referrer=utm_source%3Dtumblr%26utm_medium%3Diframe%26utm_campaign%3Dbn_continue_or_install_cta&quot;,&quot;ios&quot;:&quot;https:\/\/apps.apple.com\/app\/apple-store\/id305343404?pt=212308\u0026ct=bn_continue_or_install_cta\u0026mt=8&quot;},&quot;appOpenReferrer&quot;:&quot;bn_header_open_btn&quot;,&quot;isShowSearch&quot;:true,&quot;supplyLogging&quot;:[],&quot;secondsSinceLastActivity&quot;:-1,&quot;installUrlOpenFailed&quot;:{&quot;android&quot;:&quot;https:\/\/play.google.com\/store\/apps\/details?id=com.tumblr\u0026referrer=utm_source%3Dtumblr%26utm_medium%3Diframe%26utm_campaign%3Dbn_header_app_open_failed&quot;,&quot;ios&quot;:&quot;https:\/\/apps.apple.com\/app\/apple-store\/id305343404?pt=212308\u0026ct=bn_header_app_open_failed\u0026mt=8&quot;},&quot;loginWallVariant&quot;:&quot;small_center&quot;}},&quot;Flags&quot;:{&quot;features&quot;:&quot;eyJmaWx0ZXJfbnNmdyI6dHJ1ZSwibW9iaWxlX3dlYl9nYXRlIjp0cnVlLCJzYWZlX21vZGUiOnRydWUsInNhZmVfbW9kZV9lbmFibGVkIjp0cnVlLCJrZXljb21tYW5kX2F1dG9fcGFnaW5hdGUiOnRydWUsImxvZ2dlZF9vdXRfc2VhcmNoIjp0cnVlLCJrcmFrZW5fd2ViX2xvZ2dpbmdfbGlicmFyeSI6dHJ1ZSwibGl2ZXBob3Rvc193ZWIiOnRydWUsInVzZXJfdGFnX2ZpbHRlcmluZyI6dHJ1ZSwic2FmZV9tb2RlX293bl9wb3N0Ijp0cnVlLCJwcm9qZWN0X3hfYXBwZWFsIjp0cnVlLCJtb2JpbGVfd2ViX3Bob3Rvc2V0cyI6dHJ1ZSwiaGlkZV9kZWZhdWx0X2hlYWRlcnNfYmxvZ19jYXJkcyI6dHJ1ZSwibm90aWZpY2F0aW9uX3JlcGx5X2xpbmtfdG9fbm90ZXMiOnRydWUsInR5cGluZ19pbmRpY2F0b3Jfd3JpdGUiOnRydWUsInR1bWJscl92aWRlb19zcG9uc29yZWRfZGF5Ijp0cnVlLCJjYXB0Y2hhOnVzZV9yZWNhcHRjaGEyIjp0cnVlLCJsaXR0bGVfc2lzdGVyIjp0cnVlLCJsb2dfbGFkeSI6dHJ1ZSwicmVkcG9wX3Bvc3RfZm9ybV9tb2JpbGVfY3JlYXRlIjp0cnVlLCJsZWdhY3lfcG9zdF9mb3JtX2J1dHRvbnNfbGlua190b19yZWRwb3AiOnRydWUsInNob3dfdHNwX2NsaWNrX3Rocm91Z2hfdG9nZ2xlIjp0cnVlLCJkYXJsYV9hZF9mZWVkYmFjayI6dHJ1ZSwic3RhdHVzX2luZGljYXRvciI6dHJ1ZSwiY29udmVyc2F0aW9uYWxfbm90aWZpY2F0aW9ucyI6dHJ1ZSwiZGlzYWJsZV95YWhvb19iX2Nvb2tpZSI6dHJ1ZSwibGl2ZXBob3RvcyI6dHJ1ZX0=&quot;},&quot;Context&quot;:{&quot;name&quot;:&quot;default&quot;,&quot;time&quot;:1667208137000,&quot;userinfo&quot;:{&quot;primary&quot;:&quot;&quot;,&quot;name&quot;:&quot;&quot;,&quot;channels&quot;:[]},&quot;hosts&quot;:{&quot;assets_host&quot;:&quot;https:\/\/assets.tumblr.com&quot;,&quot;secure_assets_host&quot;:&quot;https:\/\/assets.tumblr.com&quot;,&quot;www_host&quot;:&quot;https:\/\/www.tumblr.com&quot;,&quot;secure_www_host&quot;:&quot;https:\/\/www.tumblr.com&quot;,&quot;embed_host&quot;:&quot;https:\/\/embed.tumblr.com&quot;,&quot;safe_host&quot;:&quot;https:\/\/safe.txmblr.com&quot;,&quot;platform_host&quot;:&quot;https:\/\/platform.tumblr.com&quot;},&quot;language&quot;:&quot;fr_FR&quot;,&quot;language_simple&quot;:&quot;fr&quot;,&quot;assets&quot;:&quot;https:\/\/assets.tumblr.com\/client\/prod\/&quot;},&quot;Translations&quot;:{&quot;Cancel&quot;:&quot;Annuler&quot;,&quot;Nevermind&quot;:&quot;Ignorer&quot;,&quot;Ignore&quot;:&quot;Bloquer&quot;,&quot;Unfollow&quot;:&quot;Se d\u00e9sabonner&quot;,&quot;Are you sure you want to unfollow %1$s?&quot;:&quot;Voulez-vous vraiment vous d\u00e9sabonner de %1$s ?&quot;,&quot;Sorry, we seem to be having technical trouble.  Please try again later.&quot;:&quot;Nous rencontrons des difficult\u00e9s techniques. Veuillez r\u00e9essayer plus tard.&quot;,&quot;Follow&quot;:&quot;S&#039;abonner&quot;,&quot;Follow %1$s&quot;:&quot;S&#039;abonner \u00e0 %1$s&quot;,&quot;Put it back&quot;:&quot;Remettre en place&quot;,&quot;See all&quot;:&quot;Tout voir&quot;,&quot;Block&quot;:&quot;Bloquer&quot;,&quot;%1$sAre you sure you want to block %2$s from %3$s?%4$sThey won&#039;t be able to follow %3$s, send %3$s messages, see %3$s in search results, or interact with any of %3$s&#039;s posts.%5$s&quot;:&quot;%1$sVoulez-vous vraiment bloquer %2$s sur %3$s ?%4$sCette personne ne pourra plus s&#039;abonner, ni envoyer de messages, ni interagir avec les billets, ni voir %3$s dans ses r\u00e9sultats de recherche.%5$s&quot;,&quot;%1$sBlock messages from this sender?%2$sAny further messages sent from their IP address will be blocked from your inbox. This can&#039;t be undone, by the way.%3$s&quot;:&quot;%1$sSouhaitez-vous vraiment bloquer les messages de cette personne ? %2$sTous les messages envoy\u00e9s depuis cette adresse IP seront bloqu\u00e9s de votre bo\u00eete de r\u00e9ception. Notez que cette action est irr\u00e9versible et que vous ne pourrez pas revenir sur votre d\u00e9cision.%3$s&quot;,&quot;Okay! We&#039;ll review the status of this and email you when we&#039;re done.&quot;:&quot;Votre demande a \u00e9t\u00e9 envoy\u00e9e. Nous r\u00e9\u00e9valuerons le statut de votre billet, et nous vous enverrons un e-mail d\u00e8s que ce sera fait.&quot;,&quot;This is marked as sensitive content. If that seems like a mistake, you can request a review.&quot;:&quot;Contenu signal\u00e9 comme \u00e9tant de nature d\u00e9licate. Si vous pensez qu&#039;il s&#039;agit d&#039;une erreur, vous pouvez faire une demande de r\u00e9examen.&quot;,&quot;Request Review&quot;:&quot;Demander un r\u00e9examen&quot;,&quot;This post is still marked as sensitive, but is currently being reviewed.&quot;:&quot;Ce billet est toujours marqu\u00e9 comme \u00e9tant de nature d\u00e9licate, mais nos \u00e9quipes sont en train de l&#039;examiner.&quot;,&quot;After review, it was determined that this post contains sensitive content.&quot;:&quot;Ce billet a \u00e9t\u00e9 examin\u00e9 et d\u00e9clar\u00e9 comme pr\u00e9sentant des contenus de nature d\u00e9licate.&quot;,&quot;This is marked as %1$ssensitive%2$s&quot;:&quot;Signal\u00e9 comme \u00e9tant %1$sde nature d\u00e9licate%2$s&quot;,&quot;This Tumblr may contain sensitive media.&quot;:&quot;Ce Tumblr peut comporter des contenus de nature d\u00e9licate.&quot;,&quot;Sensitive posts are hidden. If you want to change that, disable Safe Mode in your settings.&quot;:&quot;Les billets de nature d\u00e9licate sont cach\u00e9s. Si vous souhaitez changer cette option, d\u00e9sactivez le Mode tout public dans vos param\u00e8tres.&quot;,&quot;Hey, this post may contain adult content, so we&#039;ve hidden it from public view.&quot;:&quot;Ce billet susceptible de comporter du contenu pour adultes a \u00e9t\u00e9 cach\u00e9 par pr\u00e9caution.&quot;,&quot;Learn more&quot;:&quot;En savoir plus&quot;,&quot;%1$sLearn more%2$s&quot;:&quot;%1$sEn savoir plus%2$s&quot;,&quot;Safe Mode is on&quot;:&quot;Mode tout public activ\u00e9&quot;,&quot;%1$sSafe mode is on%2$s&quot;:&quot;%1$sMode tout public activ\u00e9%2$s&quot;,&quot;View this Tumblr&quot;:&quot;Voir ce Tumblr&quot;,&quot;This content contains adult content which violates our Community Guidelines.&quot;:&quot;Ce m\u00e9dia pr\u00e9sente du contenu pour adultes qui enfreint nos R\u00e8gles communautaires.&quot;,&quot;This post was flagged because we think it contains adult content which violates our Community Guidelines. It has been hidden from others, but not deleted. If you think this was done in error, tap Appeal and a real, live human will review it.&quot;:&quot;Ce billet a \u00e9t\u00e9 \u00e9tiquet\u00e9 parce que nous pensons qu&#039;il pr\u00e9sente du contenu pour adultes enfreignant nos R\u00e8gles communautaires. Il a \u00e9t\u00e9 cach\u00e9, mais n&#039;a pas \u00e9t\u00e9 supprim\u00e9. Si vous pensez qu&#039;il s&#039;agit d&#039;une erreur, appuyez sur Faire appel et une personne bien r\u00e9elle r\u00e9examinera votre billet.&quot;,&quot;Your post is in content appeal. Once a decision has been made, we&#039;ll send you an email.&quot;:&quot;Votre billet est en instance d&#039;appel. Nous vous enverrons un e-mail une fois que nous aurons pris notre d\u00e9cision.&quot;,&quot;This post was flagged because it contains adult content which violates our Community Guidelines. It has not been deleted but is now only viewable to you. This decision cannot be appealed.&quot;:&quot;Ce billet a \u00e9t\u00e9 \u00e9tiquet\u00e9 parce qu&#039;il contient du contenu pour adultes enfreignant nos R\u00e8gles communautaires. Il n&#039;a pas \u00e9t\u00e9 supprim\u00e9, mais ne peut \u00eatre vu que par vous. Cette d\u00e9cision est d\u00e9finitive et vous ne pouvez pas faire appel.&quot;,&quot;This post was flagged because somewhere in your reblog there might be adult content which is a violation of our Community Guidelines.&quot;:&quot;Ce billet a \u00e9t\u00e9 \u00e9tiquet\u00e9 parce que du contenu pour adultes qui pourrait enfreindre nos R\u00e8gles communautaires a \u00e9t\u00e9 d\u00e9tect\u00e9 dans votre reblog.&quot;,&quot;This reblog is in content appeal&quot;:&quot;Ce reblog est en appel&quot;,&quot;Your post is in content appeal&quot;:&quot;Votre billet est en appel&quot;,&quot;This post was flagged because somewhere in your reblog there might be adult content.&quot;:&quot;Ce billet a \u00e9t\u00e9 \u00e9tiquet\u00e9 parce que du contenu potentiellement r\u00e9serv\u00e9 \u00e0 un public adulte a \u00e9t\u00e9 d\u00e9tect\u00e9 dans votre reblog.&quot;,&quot;It looks like your post might be in violation of our Community Guidelines and is now hidden.&quot;:&quot;Votre billet est potentiellement en infraction avec nos R\u00e8gles communautaires. Il a donc \u00e9t\u00e9 cach\u00e9.&quot;,&quot;Based on our Community Guidelines this post contains adult content and is now only viewable to you.&quot;:&quot;Vous seul pouvez d\u00e9sormais voir ce billet parce qu&#039;il contient du contenu pour adultes enfreignant nos R\u00e8gles communautaires.&quot;,&quot;Your appeal was accepted! This post is no longer hidden.&quot;:&quot;Votre demande d&#039;appel a \u00e9t\u00e9 accept\u00e9e. Ce billet n&#039;est plus masqu\u00e9.&quot;,&quot;Dismiss&quot;:&quot;Ignorer&quot;,&quot;Appeal&quot;:&quot;Faire appel&quot;,&quot;This post contains filtered tags&quot;:&quot;Ce billet contient des tags filtr\u00e9s&quot;,&quot;Are you sure you want to log out?&quot;:&quot;\u00cates-vous s\u00fbr de vouloir vous d\u00e9connecter\u00a0?&quot;,&quot;Likes&quot;:&quot;Coups de c\u0153ur&quot;,&quot;Following&quot;:&quot;Abonnements&quot;,&quot;New&quot;:&quot;Nouveau&quot;,&quot;Account&quot;:&quot;Compte&quot;,&quot;Settings&quot;:&quot;Param\u00e8tres&quot;,&quot;Help&quot;:&quot;Aide&quot;,&quot;Log out&quot;:&quot;D\u00e9connexion&quot;,&quot;Posts&quot;:&quot;Billets&quot;,&quot;Reach&quot;:&quot;Port\u00e9e&quot;,&quot;Followers&quot;:&quot;Abonn\u00e9s&quot;,&quot;Activity&quot;:&quot;Trafic&quot;,&quot;Members&quot;:&quot;Membres&quot;,&quot;Drafts&quot;:&quot;Brouillons&quot;,&quot;Queue&quot;:&quot;File d&#039;attente&quot;,&quot;Processing&quot;:&quot;Traitement vid\u00e9o&quot;,&quot;Review flagged posts&quot;:&quot;Billets litigieux&quot;,&quot;Analytics&quot;:&quot;Statistiques&quot;,&quot;Sponsored&quot;:&quot;Sponsoris\u00e9&quot;,&quot;About Tumblr Ads&quot;:&quot;\u00c0 propos des publicit\u00e9s Tumblr&quot;,&quot;Edit appearance&quot;:&quot;Modifier l&#039;apparence&quot;,&quot;Your blog info, account info, and recent activity are in these menus.&quot;:&quot;Les informations sur votre compte et sur vos blogs ainsi que la page Trafic se trouvent dans ces menus.&quot;,&quot;Wait, why?&quot;:&quot;Pourquoi ?&quot;,&quot;Okay, phew&quot;:&quot;OK !&quot;,&quot;Why?&quot;:&quot;Pourquoi ?&quot;,&quot;It&#039;s so you never have to scroll to the top of the dashboard to access this stuff.&quot;:&quot;Pour que vous n&#039;ayez plus besoin de faire d\u00e9filer le Tableau de bord jusqu&#039;en haut pour acc\u00e9der \u00e0 ces informations.&quot;,&quot;Ohhh&quot;:&quot;Ah d&#039;accord !&quot;,&quot;Loading\u2026&quot;:&quot;Chargement...&quot;,&quot;%1$s views&quot;:&quot;%1$s vues&quot;,&quot;%1$s view&quot;:&quot;%1$s vue&quot;,&quot;%1$s added this GIF to a post&quot;:&quot;%1$s a ins\u00e9r\u00e9 ce GIF dans un billet&quot;,&quot;%1$s posted this&quot;:&quot;%1$s a publi\u00e9 ce billet&quot;,&quot;%1$s%2$s likes%3$s&quot;:&quot;%1$s%2$s coups de c\u0153ur%3$s&quot;,&quot;%1$s%2$s like%3$s&quot;:&quot;%1$s%2$s coup de c\u0153ur%3$s&quot;,&quot;%1$s%2$s likes%3$s and %4$s%5$s reblogs%3$s&quot;:&quot;%1$s%2$s coups de c\u0153ur%3$s et %4$s%5$s reblogs%3$s&quot;,&quot;%1$s%2$s likes%3$s and %4$s%5$s reblog%3$s&quot;:&quot;%1$s%2$s coups de c\u0153ur%3$s et %4$s%5$s reblog%3$s&quot;,&quot;%1$s%2$s like%3$s and %4$s%5$s reblogs%3$s&quot;:&quot;%1$s%2$s coup de c\u0153ur%3$s et %4$s%5$s reblogs%3$s&quot;,&quot;Reply&quot;:&quot;R\u00e9agir&quot;,&quot;Add to the discussion&quot;:&quot;Participez \u00e0 la discussion&quot;,&quot;Unleash a compliment&quot;:&quot;Adressez un compliment&quot;,&quot;Have something to say?&quot;:&quot;Quelque chose \u00e0 dire ?&quot;,&quot;Reply your heart out&quot;:&quot;R\u00e9agissez en beaut\u00e9&quot;,&quot;Add something wonderful&quot;:&quot;Un commentaire ?&quot;,&quot;Send something nice&quot;:&quot;\u00c9crivez un truc sympa&quot;,&quot;Your words here&quot;:&quot;Vos mots ici&quot;,&quot;Say your thing&quot;:&quot;Exprimez-vous&quot;,&quot;Block %1$s&quot;:&quot;Bloquer %1$s&quot;,&quot;Report&quot;:&quot;Signaler&quot;,&quot;%1$sReport %2$s&#039;s post?%3$sIf it violates our community guidelines, we&#039;ll remove it.%4$s&quot;:&quot;%1$sSignaler le reblog de %2$s\u0026#160;?%3$sCe billet sera supprim\u00e9 s&#039;il enfreint nos R\u00e8gles communautaires.%4$s&quot;,&quot;%1$sReport %2$s&#039;s reply?%3$sIf it violates our community guidelines, we&#039;ll remove it.%4$s&quot;:&quot;%1$sSignaler le reblog de %2$s\u0026#160;?%3$sCe billet sera supprim\u00e9 s&#039;il enfreint nos R\u00e8gles communautaires.%4$s&quot;,&quot;Hide note&quot;:&quot;Masquer la note&quot;,&quot;Delete reply&quot;:&quot;Supprimer la r\u00e9action&quot;,&quot;%1$sYou definitely want to hide this note?%2$s&quot;:&quot;%1$sVoulez-vous vraiment masquer cette note ?%2$s&quot;,&quot;%1$sYou definitely want to delete this reply?%2$s&quot;:&quot;%1$sVoulez-vous vraiment supprimer cette r\u00e9action ?%2$s&quot;,&quot;%1$sDelete your tip??%2$s&quot;:&quot;%1$sSupprimer votre pourboire ?%2$s&quot;,&quot;Deleting your tip&quot;:&quot;Cette action n&#039;affectera que l&#039;onglet des r\u00e9actions et les notes du billet. %1$sVotre pourboire ne vous sera pas rembours\u00e9.%2$s Pour plus d&#039;informations, contactez le %3$ssupport Tumblr%4$s.&quot;,&quot;Hide it&quot;:&quot;Oui&quot;,&quot;Delete it&quot;:&quot;Oui&quot;,&quot;Search&quot;:&quot;Recherche&quot;,&quot;Search %s&quot;:&quot;Chercher sur %s&quot;,&quot;Fan mail&quot;:&quot;Fan Mail&quot;,&quot;Like&quot;:&quot;J&#039;aime&quot;,&quot;Unlike&quot;:&quot;Je n&#039;aime plus&quot;,&quot;Reblog&quot;:&quot;Rebloguer&quot;,&quot;Embed&quot;:&quot;Int\u00e9grer&quot;,&quot;Edit&quot;:&quot;Modifier&quot;,&quot;Delete&quot;:&quot;Supprimer&quot;,&quot;Blog&quot;:&quot;Blogs&quot;,&quot;Get notifications&quot;:&quot;Recevoir les notifications&quot;,&quot;Stop notifications&quot;:&quot;Arr\u00eater les notifications&quot;,&quot;Flag this blog&quot;:&quot;Signaler ce blog&quot;,&quot;Sign up&quot;:&quot;Inscription&quot;,&quot;Sign up for Tumblr&quot;:&quot;Inscrivez-vous sur Tumblr&quot;,&quot;Log in&quot;:&quot;Connexion&quot;,&quot;You&#039;ll never be bored again.&quot;:&quot;Vous ne vous ennuierez plus jamais.&quot;,&quot;Discover more blogs like this one.&quot;:&quot;D\u00e9couvrez d&#039;autres blogs comme celui-l\u00e0.&quot;,&quot;Install the app&quot;:&quot;Installer l&#039;application&quot;,&quot;Open in app&quot;:&quot;Ouvrir dans l&#039;application&quot;,&quot;Dashboard&quot;:&quot;Tableau de bord&quot;,&quot;Open in Dashboard&quot;:&quot;Ouvrir dans le tableau de bord&quot;,&quot;Get the Tumblr app&quot;:&quot;Installez l&#039;application Tumblr&quot;,&quot;Are you sure you want to delete this post?&quot;:&quot;Supprimer d\u00e9finitivement ce billet ?&quot;,&quot;Never miss a post&quot;:&quot;Ne ratez jamais un seul billet&quot;,&quot;Accept&quot;:&quot;Accepter&quot;,&quot;Privacy \u0026 Cookies&quot;:&quot;Confidentialit\u00e9 et cookies&quot;,&quot;By using this site, you&#039;re agreeing to the use of analytics and other types of cookies. Click accept here, and cookies will also show you personalized ads from across the Automattic\/Wordpress.com network.&quot;:&quot;En consultant ce site, vous acceptez que des cookies soient utilis\u00e9s \u00e0 des fins d&#039;analyse et de contenu personnalis\u00e9. En cliquant sur \&quot;Accepter\&quot; ici, les cookies vous montreront \u00e9galement des publicit\u00e9s cibl\u00e9es \u00e0 travers l&#039;ensemble du r\u00e9seau Automattic\/Wordpress.com.&quot;,&quot;Get the app&quot;:&quot;T\u00e9l\u00e9charger l&#039;appli&quot;,&quot;Open in the app store?&quot;:&quot;Ouvrir dans l&#039;App Store ?&quot;,&quot;%1$s, a blog on Tumblr.&quot;:&quot;%1$s - un blog 100 \u0026#37; Tumblr.&quot;,&quot;No thanks&quot;:&quot;Non, merci&quot;,&quot;Never miss a post from %1$s&quot;:&quot;Ne ratez jamais un seul billet de %1$s&quot;,&quot;Make gifs, find your community. Only in the app.&quot;:&quot;Cr\u00e9ez des GIF, trouvez des communaut\u00e9s, et bien plus encore avec l&#039;appli Tumblr.&quot;,&quot;Close&quot;:&quot;Fermer&quot;,&quot;Image Description&quot;:&quot;Description de l&#039;image&quot;}}"></noscript><script src="https://assets.tumblr.com/client/prod/standalone/tumblelog/index.build.js?_v=26ab9405e121aac30eb3fc48a62a0f69"></script></body>
+</html>
