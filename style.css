@@ -48,7 +48,7 @@ p {
     margin-top: 120px;
 }
 
-p::after {
+#stayTuned::after {
   content: "";
   position: absolute;
   display: block;
@@ -80,4 +80,3 @@ p::after {
         transform: scaleX(1);
     }
 }
-
