@@ -70,8 +70,8 @@ p {
 }
 
 #github {
-  width: 45px;
-  height: 40px;
+  width: 50px;
+  height: 45px;
   animation: gitAppear 3s ease 10s 1 backwards;
   margin-bottom: 50px;
   cursor: pointer;
