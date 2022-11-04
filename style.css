@@ -12,16 +12,15 @@
 body {
   background-color: black;
   text-align: center;
-
 }
 
-.container{
-    display: flex;
-    flex-direction: column;
+.container {
+  display: flex;
+  flex-direction: column;
 }
 
-.typewritter-container{
-    height: 150px;
+.typewritter-container {
+  height: 150px;
 }
 
 p {
@@ -30,22 +29,17 @@ p {
   font-size: 30px;
   color: #dadada;
   display: inline-block;
-  margin-bottom: 50px;
-  margin-top: 50px;
+  margin-bottom: 16px;
+  margin-top: 20px;
   position: relative;
- 
 }
 
 .pokemonEvolving {
   width: 25%;
   height: auto;
   transform: scaleX(1);
-  animation: pokemonAppear 300ms; 
+  animation: pokemonAppear 300ms;
   transform-origin: 0% 50%;
-}
-
-#stayTuned{
-    margin-top: 120px;
 }
 
 #stayTuned::after {
@@ -58,6 +52,17 @@ p {
   right: -5px;
   top: 0;
   animation: cursor 1s infinite;
+}
+
+#github {
+  opacity: 0;
+  width: 35px;
+  height: 30px;
+  margin-left: auto;
+  animation: gitAppear 2s ease 10s infinite;
+  position: relative;
+  top: 160px;
+  right: 30px;
 }
 
 @keyframes cursor {
@@ -73,10 +78,43 @@ p {
 }
 
 @keyframes pokemonAppear {
-   from{
-        transform: scaleX(0);
-    }
-   to{
-        transform: scaleX(1);
-    }
+  from {
+    transform: scaleX(0);
+  }
+  to {
+    transform: scaleX(1);
+  }
+}
+
+@keyframes gitAppear {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .container {
+    margin: 0;
+  }
+  .pokemonEvolving {
+    width: 100%;
+  }
+  .typewritter-container {
+    height: auto;
+  }
+  p {
+    font-size: 18px;
+  }
+  #stayTuned{
+    font-size: 30px;
+  }
+  #github {
+    top: 86px;
+    width: 45px;
+    height: 40px;
+  }
+
 }
