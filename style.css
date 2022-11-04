@@ -28,6 +28,8 @@ body {
 
 .typewritter-container {
   height: 150px;
+
+  
 }
 
 
@@ -39,6 +41,8 @@ p {
   display: inline-block;
   margin-top: 20px;
   position: relative;
+
+  height: 150px;
 }
 
 .pokemonEvolving {
@@ -47,6 +51,7 @@ p {
   transform: scaleX(1);
   animation: pokemonAppear 300ms;
   transform-origin: 0% 50%;
+
 }
 
 #stayTuned{
@@ -65,10 +70,11 @@ p {
 }
 
 #github {
-  width: 35px;
-  height: 30px;
+  width: 45px;
+  height: 40px;
   animation: gitAppear 3s ease 10s 1 backwards;
   margin-bottom: 50px;
+  cursor: pointer;
 }
 
 @keyframes cursor {
@@ -129,7 +135,14 @@ p {
 }
 
 @media screen and (min-width:768px) and (max-width:992px){
+  #portfolioEvolving{
+    font-size: 30px;
+  }
+
   .pokemonEvolving{
-    width: 60%;
+    width: 70%;
+  }
+  .stayTuned{
+    font-size: 40px;
   }
 }
